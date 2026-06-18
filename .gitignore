@@ -1,0 +1,41 @@
+# =============================================
+# LifeLine AI — .gitignore
+# =============================================
+
+# Environment secrets (NEVER commit this!)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Database (optional: comment out if you want to commit seed DB)
+# donors.db
+
+# Streamlit cache
+.streamlit/secrets.toml
